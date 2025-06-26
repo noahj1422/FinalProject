@@ -97,64 +97,42 @@ textarea {
     scale: 75%;
 }
 
-button {
+.btn, .btn2, .btn3 {
+    background-color:#252525;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     scale: 400%;
 }
 
 
-#btn{
-    background-color:#252525;
+.btn{
     position: relative;
     right: 500px;
     top: -150px;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
 
-#btn2 {
-    background-color: #252525;
+.btn2 {
     position: relative;
     left: 500px;
     top: -150px;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
-#btn3 {
-    background-color: #252525;
+.btn3 {
     position: relative;
     right: 225px;
     top: 350px;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
-button:hover {
+.btn:hover, .btn2:hover, .btn3:hover {
     background: radial-gradient(#53A5ED 15%, #252525);
 }
 
