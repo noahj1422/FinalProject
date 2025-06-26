@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="screen.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><img class="SmallLogo" src="/images/NJLogo.png" alt=""></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="work.html" class="active">Work</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <h1 style="text-align: center;">Get In Touch!</h1>
+    <div class="contact">
+        <img id="FormLogo" src="/images/NJLogoHover.png">
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="reason">Reason for message</label>
+            <select id="reason" name="reason">
+                <option value="Select A Reason">-- Select a reason --</option>
+                <option value="Saying Hello">Saying Hello</option>
+                <option value="General Question">General Question</option>
+                <option value="Business Inquiry">Business Inquiry</option>
+                <option value="Something Else">Something Else</option>
+            </select>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="msg" rows="8" placeholder="Type your message here..."></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
+
+</html>
+    </div>
+  </body>
+</html>
